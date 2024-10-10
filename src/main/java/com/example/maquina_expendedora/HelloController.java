@@ -90,8 +90,8 @@ public class HelloController {
 
     @FXML
     public void PrsdButt20() {
-        PantallaImporte.setText(String.format("%.2f",Importe));
         Importe = Importe+0.20;
+        PantallaImporte.setText(String.format("%.2f",Importe));
     }
 
     @FXML
